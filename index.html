@@ -66,7 +66,9 @@
                 break;
         }
     }
-    
+    if (topic == null) {
+      topic = 'CHSH'
+    } 
     CreateNewTag('head', 'script', {
         0:'src', 
         1:'./source/views/blocks/MenuBar.js'})
