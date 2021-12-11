@@ -1,12 +1,12 @@
 
-// try {
+try {
     var menubarT = MenuBar;
     var PostT = Post;
     var dataT = data;
     var titleT = title;
-// } catch (error) {
-//     window.location.href=url;
-// }
+} catch (error) {
+    window.location.href=url;
+}
 
 
 var menubarBlock = new Vue({
