@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<link rel="stylesheet" href="./publish/style/layout/Layout.css">
+</head>
+<body>
+<div class="container-fluid">
+  <div class="row content">
+    <div id="menubar">
+        
+    </div>
+    
+
+    <div class="col-sm-9">
+      <h4><small>Tài liệu ôn thi</small></h4>
+      <hr>
+      <div id="post"></div>   
+      <!-- <h4><small>RECENT POSTS</small></h4>
+      <hr>
+      <h2>Officially Blogging</h2>
+      <h5><span class="glyphicon glyphicon-time"></span> Post by John Doe, Sep 24, 2015.</h5>
+      <h5><span class="label label-success">Lorem</span></h5><br>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      <hr> -->
+
+      <!-- <h4>Leave a Comment:</h4>
+      <form role="form">
+        <div class="form-group">
+          <textarea class="form-control" rows="3" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-success">Submit</button>
+      </form> -->
+      
+
+      
+    </div>
+  </div>
+</div>
+
+<footer class="container-fluid">
+  <p>mqthang_18sh&copy;</p>
+</footer>
+<script>
+    var url = window.location.href;
+    var url = new URL(url);
+    var topic = url.searchParams.get("topic");
+
+    let CreateNewTag = function(Position/*Vị trí: header, body,...*/, NameTag /*Tên Tag*/, Attr) {
+        var tag = document.createElement(NameTag);
+        tag.setAttribute(Attr[0], Attr[1]);
+        switch(Position) {
+            case 'head': 
+                document.head.appendChild(tag)
+                break;
+            case 'body':
+                document.body.appendChild(tag)
+                break;
+        }
+    }
+    
+    CreateNewTag('head', 'script', {
+        0:'src', 
+        1:'./source/views/blocks/MenuBar.js'})
+
+    CreateNewTag('head', 'script', {
+    0:'src', 
+    1:'./source/views/pages/'.concat(topic,'/data.js')})
+
+    CreateNewTag('head', 'script', {
+    0:'src', 
+    1:'./source/views/blocks/Post.js'})
+
+    CreateNewTag('body', 'script', {
+        0:'src',
+        1:'main.js'
+    })
+</script>
+</body>
+</html>
