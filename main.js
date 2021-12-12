@@ -13,8 +13,11 @@ var menubarBlock = new Vue({
     el: '#menubar',
     template: menubarT
 })
+try {MenuBarF(topic);} 
+catch (error) {
+    window.location.href=url;
+}
 
-MenuBarF(topic)
 var PostBlock = new Vue({
     el: '#post',
     template: PostT,

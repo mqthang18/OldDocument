@@ -4,6 +4,7 @@ const data = [
     // C.Nguyệt Câu 1
     {
         'subject': 'Chuyển hóa sinh học',
+        'number': '1',
         'question': '1. Chuyển hóa sinh học là gì? Tầm quan trọng của nó?',
         'author': 'Cô Nguyệt',
         'answer': `
@@ -23,6 +24,7 @@ const data = [
     // C.Nguyệt Câu 2
     {
         'subject': 'Chuyển hóa sinh học',
+        'number': '2',
         'question': '2. Có mấy giai đoạn phản ứng biến đổi sinh học? Đó lá những giai đoạn nào?',
         'author': 'Cô Nguyệt',
         'answer': `
@@ -49,9 +51,10 @@ const data = [
                 <img src="./publish/image/CHSH/Bezene_benzenesulfate.png" alt="Convert Benzen into Benzen sulfate">
         `
     },
-    //  C.Nguyệt Câu 2
+    //  C.Nguyệt Câu 3
     {
         'subject': 'Chuyển hóa sinh học',
+        'number': '3',
         'question': '3. Con đường đồng hóa? Con đường dị hóa? Nêu ví dụ minh họa?',
         'author': 'Cô Nguyệt',
         'answer': `
@@ -72,9 +75,10 @@ const data = [
                 </div>
         `
     },
-    //  C.Nguyệt Câu 3
+    //  C.Nguyệt Câu 4
     {
         'subject': 'Chuyển hóa sinh học',
+        'number': '4',
         'question': '4. Chức năng của carbohydrate?',
         'author': 'Cô Nguyệt',
         'answer': `
@@ -87,9 +91,10 @@ const data = [
             </ul>
         `
     },
-    //  C.Nguyệt Câu 4
+    //  C.Nguyệt Câu 5
     {
         'subject': 'Chuyển hóa sinh học',
+        'number': '5',
         'question': '5. Các bước chuyển hóa của Carbohydrate?',
         'author': 'Cô Nguyệt',
         'answer': `
@@ -107,9 +112,10 @@ const data = [
             <img src="./publish/image/CHSH/q5.jpeg" alt="Carbohydrate conversion" style="width: 70%;">
         `
     },
-    //  C.Nguyệt Câu 5
+    //  C.Nguyệt Câu 6
     {
         'subject': 'Chuyển hóa sinh học',
+        'number': '6',
         'question': '6. Tầm quan trọng ATP và các bước chuyển hóa ATP trong cơ thể người?',
         'author': 'Cô Nguyệt',
         'answer': `
@@ -132,9 +138,10 @@ const data = [
 
         `
     },
-    //  C.Nguyệt Câu 6
+    //  C.Nguyệt Câu 7
     {
         'subject': 'Chuyển hóa sinh học',
+        'number': '7',
         'question': '7. Sự hình thành lactate, acid lactic và các tác hại?',
         'author': 'Cô Nguyệt',
         'answer': `
@@ -148,9 +155,10 @@ const data = [
   
         `
     },
-    //  C.Nguyệt Câu 7
+    //  C.Nguyệt Câu 8
     {
         'subject': 'Chuyển hóa sinh học',
+        'number': '8',
         'question': '8. Xenobiotics là gì? Có mấy giai đoạn chuyển hóa Xenobiotics trong cơ thể?',
         'author': 'Cô Nguyệt',
         'answer': `
@@ -181,6 +189,7 @@ const data = [
     // C. Vương Câu 1
     {
         'subject': 'Chuyển hóa sinh học',
+        'number': '9',
         'question': '1. Chuyển hóa vật chất là gì? Chuyển hóa năng lượng là gì?',
         'author': 'Cô N. Vương',
         'answer': `
@@ -202,6 +211,7 @@ const data = [
     // Cô N. Vương Câu 2
     {
         'subject': 'Chuyển hóa sinh học',
+        'number': '10',
         'question': '2. Trình bày các dạng, nhu cầu, vai trò và điều hòa chuyển hóa của carbohydrate và protein?',
         'author': 'Cô N. Vương',
         'answer': `
@@ -303,6 +313,7 @@ const data = [
     // Cô N. Vương Câu 3
     {
         'subject': 'Chuyển hóa sinh học',
+        'number': '11',
         'question': '3. Trình bày được các dạng năng lượng trong cơ thể, các nguyên nhân tiêu hao năng lượng và điều hòa chuyển hóa ở mức tế bào?',
         'author': 'Cô N. Vương',
         'answer': `
@@ -353,6 +364,7 @@ const data = [
     // Cô N. Vương Câu 4
     {
         'subject': 'Chuyển hóa sinh học',
+        'number': '12',
         'question': '4. Nêu quá trình chuyển hóa protein và tổng hợp protein?',
         'author': 'Cô N. Vương',
         'answer': `

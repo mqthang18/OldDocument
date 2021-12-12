@@ -4,6 +4,7 @@ const data = [
     // C.Nguyệt Câu 1
     {
         'subject': 'Vi sinh vật thủy sản',
+        'number': '1',
         'question': '1. Hãy phân biệt prebiotic, probiotic, synbiotic? Cho ví dụ về probiotic, tác dụng của prebiotic và probiotic trong nuôi trông thủy sản?',
         'author': 'Cô Nguyệt',
         'answer': `
@@ -37,6 +38,7 @@ const data = [
     // C.Nguyệt Câu 2
     {
         'subject': 'Vi sinh vật thủy sản',
+        'number': '2',
         'question': '2. Việc sử dụng chất kháng sinh trong nuôi trồng thủy sản có được khuyến khích trong giai đoạn hiện nay không? Chất kháng sinh ảnh hưởng như thế nào đến việc nuôi trồng thủy sản?',
         'author': 'Cô Nguyệt',
         'answer': `
@@ -49,6 +51,7 @@ const data = [
     //  C.Nguyệt Câu 3
     {
         'subject': 'Vi sinh vật thủy sản',
+        'number': '3',
         'question': '3. Chế phẩm sinh học là gì? Các chế phẩm sinh học ảnh hưởng như thế nào đến việc nuôi trồng thủy sản?',
         'author': 'Cô Nguyệt',
         'answer': `
@@ -66,6 +69,7 @@ const data = [
     //  C.Nguyệt Câu 4
     {
         'subject': 'Vi sinh vật thủy sản',
+        'number': '4',
         'question': '4. Sự hiện diện của tảo trong môi trường nuôi trồng thủy sản có những mặt tích cực và tiêu cực gì? Ví dụ?',
         'author': 'Cô Nguyệt',
         'answer': `
@@ -88,6 +92,7 @@ const data = [
     //  C.Nguyệt Câu 5
     {
         'subject': 'Vi sinh vật thủy sản',
+        'number': '5',
         'question': '5. Tại sao nên sử dụng chế phẩm sinh học trong bể nuôi trồng thủy sản. Ví dụ?',
         'author': 'Cô Nguyệt',
         'answer': `
@@ -128,6 +133,7 @@ const data = [
     //  C.Nguyệt Câu 6
     {
         'subject': 'Vi sinh vật thủy sản',
+        'number': '6',
         'question': '6. Nêu vai trò và chức năng của VSV có ích (BMs) trong nuôi trồng thủy sản. Ví dụ minh họa?',
         'author': 'Cô Nguyệt',
         'answer': `
@@ -166,6 +172,7 @@ const data = [
     //  C.Nguyệt Câu 7
     {
         'subject': 'Vi sinh vật thủy sản',
+        'number': '7',
         'question': '7. Kể tên một số tác hại VSV trong nuôi trồng thủy sản. VD minh họa?',
         'author': 'Cô Nguyệt',
         'answer': `
@@ -198,6 +205,7 @@ const data = [
     //  C.Nguyệt Câu 8
     {
         'subject': 'Vi sinh vật thủy sản',
+        'number': '8',
         'question': '8. Phân loại chế phẩm sinh học trong nuôi trồng thủy sản. Cho ví dụ minh họa?',
         'author': 'Cô Nguyệt',
         'answer': `
@@ -231,6 +239,7 @@ const data = [
     // C.Nguyệt Câu 9
     {
         'subject': 'Vi sinh vật thủy sản',
+        'number': '9',
         'question': '9. Lợi ích của vi khuẩn Bacillus subtilis trong SX probiotic cho nuôi trồng thủy sản?',
         'author': 'Cô Nguyệt',
         'answer': `
@@ -246,6 +255,7 @@ const data = [
     // C.Nguyệt Câu 10
     {
         'subject': 'Vi sinh vật thủy sản',
+        'number': '10',
         'question': '10. Nêu một số ứng dụng EMs (VSV có ích) trong nuôi trồng thủy sản??',
         'author': 'Cô Nguyệt',
         'answer': `
@@ -262,6 +272,7 @@ const data = [
     // C.Nguyệt Câu 11
     {
         'subject': 'Vi sinh vật thủy sản',
+        'number': '11',
         'question': '11. Chức năng của BMs là gì??',
         'author': 'Cô Nguyệt',
         'answer': `

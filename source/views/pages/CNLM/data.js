@@ -4,6 +4,7 @@ const data = [
     // Cô N. Vương Câu 1
     {
         'subject': 'Công nghệ lên men',
+        'number': 'V1',
         'question': '1. Định nghĩa lên men? Kể tên 1 số sản phẩm lên men truyền thống có sự tham gia của nấm mốc?',
         'author': 'Cô N. Vương',
         'answer': `
@@ -18,6 +19,7 @@ const data = [
     // Cô N. Vương Câu 2
     {
         'subject': 'Công nghệ lên men',
+        'number': 'V2',
         'question': '2. Giải thích sơ đồ kích thích và ức chế cho quá trình lên men sữa chua?',
         'author': 'Cô N. Vương',
         'answer': `
@@ -30,6 +32,7 @@ const data = [
     // Cô N. Vương Câu 3
     {
         'subject': 'Công nghệ lên men',
+        'number': 'V3',
         'question': '3. Tại sao phải thực hiện quá trình đồng hóa sữa trước khi lên men?',
         'author': 'Cô N. Vương',
         'answer': `
@@ -43,6 +46,7 @@ const data = [
     // Cô N. Vương Câu 4
     {
         'subject': 'Công nghệ lên men',
+        'number': 'V4',
         'question': '4. Tại sao người ta phải kết hợp men rennet và vi khuẩn lactic trong quá trình chế biến phô mai?',
         'author': 'Cô N. Vương',
         'answer': `
@@ -56,6 +60,7 @@ const data = [
     // Cô N. Vương Câu 5
     {
         'subject': 'Công nghệ lên men',
+        'number': 'V5',
         'question': '5. Quy trình chế biến phô mai gồm mấy giai đoạn?',
         'author': 'Cô N. Vương',
         'answer': `
@@ -83,6 +88,7 @@ const data = [
     // Cô N. Vương Câu 6
     {
         'subject': 'Công nghệ lên men',
+        'number': 'V6',
         'question': '6. Mục đích quá trình muối phô mai? Giải thích công đoạn muối phô mai?',
         'author': 'Cô N. Vương',
         'answer': `
@@ -105,6 +111,7 @@ const data = [
     // Cô N. Vương Câu 7
     {
         'subject': 'Công nghệ lên men',
+        'number': 'V7',
         'question': '7. Mục đích quá trình muối phô mai? Giải thích công đoạn muối phô mai??',
         'author': 'Cô N.Vương',
         'answer': `
@@ -120,6 +127,7 @@ const data = [
     // Cô N. Vương Câu 8
     {
         'subject': 'Công nghệ lên men',
+        'number': 'V8',
         'question': '8. Anh/chị hãy viết qui trình lên men chao?',
         'author': 'Cô N. Vương',
         'answer': `
@@ -129,6 +137,7 @@ const data = [
     // Cô N. Vương Câu 9
     {
         'subject': 'Công nghệ lên men',
+        'number': 'V9',
         'question': '9. Một số hiện tượng hư hỏng chao??',
         'author': 'Cô N. Vương',
         'answer': `
@@ -150,6 +159,7 @@ const data = [
     // Cô N. Vương Câu 10
     {
         'subject': 'Công nghệ lên men',
+        'number': 'V10',
         'question': '10. Anh/Chị hãy cho biết quá trình lên men bia gồm mấy giai đoạn?',
         'author': 'Cô N. Vương',
         'answer': `
@@ -183,6 +193,7 @@ const data = [
     // Cô N. Vương Câu 11
     {
         'subject': 'Công nghệ lên men',
+        'number': 'V11',
         'question': '11. Các yếu tố ảnh hưởng đến quá trình lên men rượu vang?',
         'author': 'Cô N. Vương',
         'answer': `
@@ -197,6 +208,7 @@ const data = [
     // Cô N. Vương Câu 12
     {
         'subject': 'Công nghệ lên men',
+        'number': 'V12',
         'question': '12. Tại sao trong quy trình sản xuất bia phải có giai đoạn đường hóa nguyên liệu và houblon hóa?',
         'author': 'Cô N. Vương',
         'answer': `
@@ -216,6 +228,7 @@ const data = [
     // Cô N. Vương Câu 13
     {
         'subject': 'Công nghệ lên men',
+        'number': 'V13',
         'question': '13. Anh/chị cho biết các nguyên liệu dùng để sản xuất bia?',
         'author': 'Cô N. Vương',
         'answer': `
@@ -240,6 +253,7 @@ const data = [
     // Cô N. Vương Câu 14
     {
         'subject': 'Công nghệ lên men',
+        'number': 'V14',
         'question': '14. Anh/Chị hãy cho biết vì sao trong quá trình sản xuất rượu trắng cần có công đoạn chưng cất và tinh chế cồn?',
         'author': 'Cô N. Vương',
         'answer': `
@@ -254,6 +268,7 @@ const data = [
     // Cô Thảo Câu 1
     {
         'subject': 'Công nghệ lên men',
+        'number': 'T1',
         'question': '1. Những điều kiện cần thiết cho một quá trình lên men trong sản xuất công nghiệp?',
         'author': 'Cô Thảo',
         'answer': `
@@ -267,6 +282,7 @@ const data = [
     // Cô Thảo Câu 2
     {
         'subject': 'Công nghệ lên men',
+        'number': 'T2',
         'question': '2. Các phương pháp khử trùng thường dùng trong sản xuất công nghiệp?',
         'author': 'Cô Thảo',
         'answer': `
@@ -279,6 +295,7 @@ const data = [
     // Cô Thảo Câu 3
     {
         'subject': 'Công nghệ lên men',
+        'number': 'T3',
         'question': '3. Những ưu và nhược điểm của phương pháp nuôi cấy gián đoạn và liên tục?',
         'author': 'Cô Thảo',
         'answer': `
@@ -331,6 +348,7 @@ const data = [
     // Cô Thảo Câu 4
     {
         'subject': 'Công nghệ lên men',
+        'number': 'T4',
         'question': '4. Hãy phân loại quá trình lên men dựa vào kỹ thuật nuôi cấy?',
         'author': 'Cô Thảo',
         'answer': `
@@ -357,6 +375,7 @@ const data = [
     // Cô Thảo Câu 5
     {
         'subject': 'Công nghệ lên men',
+        'number': 'T5',
         'question': '5. Hãy nêu vai trò của cánh khuấy và hệ thống thổi khí trong lên men chìm?',
         'author': 'Cô Thảo',
         'answer': `
@@ -369,6 +388,7 @@ const data = [
     // Cô Thảo Câu 6
     {
         'subject': 'Công nghệ lên men',
+        'number': 'T6',
         'question': '6. Hãy nêu quy trình sản xuất bột ngọt bằng phương pháp lên men?',
         'author': 'Cô Thảo',
         'answer': `
@@ -378,6 +398,7 @@ const data = [
     // Cô Thảo Câu 7
     {
         'subject': 'Công nghệ lên men',
+        'number': 'T7',
         'question': '7. Liệt kê tên một số chủng vi sinh vật dùng trong sản xuất bột ngọt bằng phương pháp lên men?',
         'author': 'Cô Thảo',
         'answer': `
@@ -394,6 +415,7 @@ const data = [
     // Cô Thảo Câu 8
     {
         'subject': 'Công nghệ lên men',
+        'number': 'T8',
         'question': '8. Tiêu chuẩn chọn giống và nguyên liệu trong quá trình sản xuất acid citric?',
         'author': 'Cô Thảo',
         'answer': `
@@ -425,6 +447,7 @@ const data = [
     // Cô Thảo Câu 9
     {
         'subject': 'Công nghệ lên men',
+        'number': 'T9',
         'question': '9. Hãy nêu các giai đoạn của quá trình lên men sản xuất acid citric bằng phương pháp lên men?',
         'author': 'Cô Thảo',
         'answer': `
@@ -448,6 +471,7 @@ const data = [
     // Cô Thảo Câu 10
     {
         'subject': 'Công nghệ lên men',
+        'number': 'T10',
         'question': '10. Liệt kê tên các loài vi sinh vật tham gia vào quá trình lên men sản xuất acid citric. Vai trò của chúng trong quy trình sản xuất?',
         'author': 'Cô Thảo',
         'answer': `

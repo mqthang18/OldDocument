@@ -4,6 +4,7 @@ const data = [
     // C.Thu Ba Câu 1
     {
         'subject': 'Di truyền vi sinh vật',
+        'number': '1',
         'question': '1. Trong nghiên cứu di truyền học các đối tượng vi sinh vật có ưu thế hơn thực vật và động vật bậc cao. Hãy nêu những ưu điểm đó?',
         'author': 'Cô Thu Ba',
         'answer': `
@@ -54,6 +55,7 @@ const data = [
     // C.Thu Ba Câu 2
     {
         'subject': 'Di truyền vi sinh vật',
+        'number': '2',
         'question': '2. Nêu những đóng góp cụ thể của các đối tượng VSV chủ yếu trong vai trò CM của VSV?',
         'author': 'Cô Thu Ba',
         'answer': `
@@ -112,6 +114,7 @@ const data = [
     //  C.Thu Ba Câu 3
     {
         'subject': 'Di truyền vi sinh vật',
+        'number': '3',
         'question': '3. Hãy nêu một quy trình phân lập nuôi cấy và bảo quản mẫu VSV ngoài thiên nhiên có giá trị thương phẩm mà em thích nhất??',
         'author': 'Cô Thu Ba',
         'answer': `
@@ -151,6 +154,7 @@ const data = [
     //  C.Thu Ba Câu 4
     {
         'subject': 'Di truyền vi sinh vật',
+        'number': '4',
         'question': '4. Nêu đặc tính di truyền của Saccharomyces?',
         'author': 'Cô Thu Ba',
         'answer': `
@@ -176,6 +180,7 @@ const data = [
     //  C.Thu Ba Câu 5
     {
         'subject': 'Di truyền vi sinh vật',
+        'number': '5',
         'question': '5. Néu phương thức dinh dưỡng cơ bản của một số loại vi sinh vật??',
         'author': 'Cô Thu Ba',
         'answer': `

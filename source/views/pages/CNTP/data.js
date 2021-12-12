@@ -4,6 +4,7 @@ const data = [
     // Cô N. Vương Câu 1
     {
         'subject': 'Công nghệ thực phẩm',
+        'number': 'V1',
         'question': '1. Giải thích lộ trình lên men của vi khuẩn lactic??',
         'author': 'Cô N. Vương',
         'answer': `
@@ -20,6 +21,7 @@ const data = [
     // Cô N. Vương Câu 2
     {
         'subject': 'Công nghệ thực phẩm',
+        'number': 'V2',
         'question': '2. Anh/chị hãy viết quy trình lên men bánh mì? Giải thích từng giai đoạn trong quá trình lên men?',
         'author': 'Cô N. Vương',
         'answer': `
@@ -80,6 +82,7 @@ const data = [
     //  Cô N. Vương Câu 3
     {
         'subject': 'Công nghệ thực phẩm',
+        'number': 'V3',
         'question': '3. Trong quá trình sản xuất bánh mì thì giai đoạn nào quyết định đến chất lượng bánh?',
         'author': 'Cô N. Vương',
         'answer': `
@@ -93,6 +96,7 @@ const data = [
     //  Cô N. Vương Câu 4
     {
         'subject': 'Công nghệ thực phẩm',
+        'number': 'V4',
         'question': '4. Cơ chế của quá trình lên men muối chua?',
         'author': 'Cô N. Vương',
         'answer': `
@@ -104,6 +108,7 @@ const data = [
     //  Cô N. Vương Câu 5
     {
         'subject': 'Công nghệ thực phẩm',
+        'number': 'V5',
         'question': '5. Các yếu tố ảnh hưởng đến quá trình muối chua rau quả? Tại sao phải có công đoạn làm héo hay chần trước khi chế biến?',
         'author': 'Cô N. Vương',
         'answer': `
@@ -135,6 +140,7 @@ const data = [
     //  Cô N. Vương Câu 6
     {
         'subject': 'Công nghệ thực phẩm',
+        'number': 'V6',
         'question': '6. Enzyme là gì? Enzyme được sản xuất từ nguồn nào? Kể tên một vài enzyme ứng dụng trong thực phẩm?',
         'author': 'Cô N. Vương',
         'answer': `
@@ -156,6 +162,7 @@ const data = [
     //  Cô N. Vương Câu 7
     {
         'subject': 'Công nghệ thực phẩm',
+        'number': 'V7',
         'question': '7. Nêu ứng dụng của enzyme protease, pectinase. Giải thích cơ chế của việc lắng enzyme pectinase?',
         'author': 'Cô N. Vương',
         'answer': `
@@ -181,6 +188,7 @@ const data = [
     //  Cô N. Vương Câu 8
     {
         'subject': 'Công nghệ thực phẩm',
+        'number': 'V8',
         'question': '8. Phân loại enzyme. Nguồn và phạm vi sử dụng?',
         'author': 'Cô N. Vương',
         'answer': `
@@ -218,6 +226,7 @@ const data = [
     // C. Vương Câu 9
     {
         'subject': 'Công nghệ thực phẩm',
+        'number': 'V9',
         'question': '9. Thực phẩm chức năng là gì? Cho ví dụ? So sánh thực phẩm chức năng với thuốc và với thực phẩm truyền thống?',
         'author': 'Cô N. Vương',
         'answer': `
@@ -252,6 +261,7 @@ const data = [
     // Cô N. Vương Câu 10
     {
         'subject': 'Công nghệ thực phẩm',
+        'number': 'V10',
         'question': '10. Vitamin tan trong nước tan trong chất béo/trong nước gồm những loại nào? Nêu đặc điểm của Vitamin C, A, D, E?',
         'author': 'Cô N. Vương',
         'answer': `
@@ -302,6 +312,7 @@ const data = [
     // Cô N. Vương Câu 11
     {
         'subject': 'Công nghệ thực phẩm',
+        'number': 'V11',
         'question': '11. Một số biện pháp bảo vệ và tạo màu sắc đẹp cho thực phẩm?',
         'author': 'Cô N. Vương',
         'answer': `
@@ -316,6 +327,7 @@ const data = [
     // Cô N. Vương Câu 12
     {
         'subject': 'Công nghệ thực phẩm',
+        'number': 'V12',
         'question': '12. Sắc tố chlorophyll, carotenoid, anthocyanin?',
         'author': 'Cô N. Vương',
         'answer': `
@@ -354,6 +366,7 @@ const data = [
     // Cô N. Vương Câu 13
     {
         'subject': 'Công nghệ thực phẩm',
+        'number': 'V13',
         'question': '13. GMO, GMF là gì? Kể tên một vài thực phẩm hiện đại?',
         'author': 'Cô N. Vương',
         'answer': `
@@ -368,6 +381,7 @@ const data = [
     // Cô N. Vương Câu 14
     {
         'subject': 'Công nghệ thực phẩm',
+        'number': 'V14',
         'question': '14. Kể tên các phương pháp chế biến thực phẩm hiện đại??',
         'author': 'Cô N. Vương',
         'answer': `
@@ -384,6 +398,7 @@ const data = [
     // Cô N. Vương Câu 15
     {
         'subject': 'Công nghệ thực phẩm',
+        'number': 'V15',
         'question': '15. Nêu ưu, nhược điểm của phương pháp microwave, sấy phun?',
         'author': 'Cô N. Vương',
         'answer': `
@@ -436,6 +451,7 @@ const data = [
     // Cô N. Vương Câu 16
     {
         'subject': 'Công nghệ thực phẩm',
+        'number': 'V16',
         'question': '16. Thực phẩm chiếu xạ là gì? Thực phẩm chiếu xạ có an toàn không, vì sao?',
         'author': 'Cô N. Vương',
         'answer': `

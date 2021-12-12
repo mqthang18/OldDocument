@@ -4,6 +4,7 @@ const data = [
     // C.Thu Ba Câu 1
     {
         'subject': 'Vi sinh vật y học',
+        'number': 'TB1',
         'question': '1. Trong y học, VSV là căn nguyên của các bệnh nhiễm trùng. Em hãy nêu các phương pháp trị bệnh trong thời gian qua. Hiện tại phương pháp nào chữa trị hiệu quả nhất và theo em chúng có phải là phương pháp tối ưu chưa??',
         'author': 'Cô Thu Ba',
         'answer': `
@@ -37,6 +38,7 @@ const data = [
     // C.Thu Ba Câu 2
     {
         'subject': 'Vi sinh vật y học',
+        'number': 'TB2',
         'question': '2. Em hãy nêu các VSV hiện diện ở đường tiêu hóa của người và một số phương pháp ngừa bệnh thông thường để tránh nhiễm bệnh đường tiêu hóa?',
         'author': 'Cô Thu Ba',
         'answer': `
@@ -87,6 +89,7 @@ const data = [
     //  C.Nguyệt Câu 3
     {
         'subject': 'Vi sinh vật y học',
+        'number': 'TT1',
         'question': '1. Disease transmission?',
         'author': 'Thầy Thẩm',
         'answer': `
@@ -134,6 +137,7 @@ const data = [
     //  C.Nguyệt Câu 4
     {
         'subject': 'Vi sinh vật y học',
+        'number': 'TT2',
         'question': '2. Miễn dịch chống virus?',
         'author': 'Thầy Thẩm',
         'answer': `
@@ -250,6 +254,7 @@ const data = [
     //  C.Nguyệt Câu 5
     {
         'subject': 'Vi sinh vật y học',
+        'number': 'TT4',
         'question': '3. Ý nghĩa và tiến trình cơ bản thực hiện kiểm tra HA và HI. Virus có đặc tính gì mới sử dụng phương pháp HI để chuẩn đoán?',
         'author': 'Thầy Thẩm',
         'answer': `
@@ -315,6 +320,7 @@ const data = [
     //  C.Nguyệt Câu 6
     {
         'subject': 'Vi sinh vật y học',
+        'number': 'TT3',
         'question': '3. Complete the below sentences. Add the word or words that best complete each of the following statement?',
         'author': 'Thầy Thẩm',
         'answer': `
