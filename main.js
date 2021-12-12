@@ -14,7 +14,7 @@ var menubarBlock = new Vue({
     template: menubarT
 })
 
-
+MenuBarF(topic)
 var PostBlock = new Vue({
     el: '#post',
     template: PostT,
