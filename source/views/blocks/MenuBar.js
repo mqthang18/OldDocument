@@ -21,21 +21,3 @@ const MenuBar = `
         </div> -->
     </div>
 `
-
-function MenuBarF(topic) {
-    const ul = document.getElementById('navbar');
-    const listItems = ul.getElementsByTagName('li');
-        
-    // Loop through the NodeList object.
-    for (let i = 0; i <= listItems.length - 1; i++) {
-        var url_imm = new URL('https://'.concat(listItems[i].getElementsByTagName('a')[0].getAttribute('href')));
-        var topic_imm = url_imm.searchParams.get("topic");
-        if (topic_imm == topic) {
-            listItems[i].setAttribute("class", 'active');
-        } else {
-            listItems[i].removeAttribute("class");
-        }
-        // console.log (listItems[i].getElementsByTagName('a')[0].getAttribute('href'));
-        // console.log(topic_imm)
-    }
-}
