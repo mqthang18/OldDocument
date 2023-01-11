@@ -1,6 +1,6 @@
-const title = 'Chuyển hóa sinh học'
+const TitleCHSH = 'Chuyển hóa sinh học'
 
-const data = [
+const DataCHSH = [
     // C.Nguyệt Câu 1
     {
         'subject': 'Chuyển hóa sinh học',
@@ -391,3 +391,4 @@ const data = [
     }
 ]
 
+export { TitleCHSH, DataCHSH };

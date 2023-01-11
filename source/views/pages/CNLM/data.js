@@ -1,6 +1,6 @@
-const title = 'Công nghệ lên men'
+const TitleCNLM = 'Công nghệ lên men'
 
-const data = [
+const DataCNLM = [
     // Cô N. Vương Câu 1
     {
         'subject': 'Công nghệ lên men',
@@ -495,3 +495,4 @@ const data = [
     },
 ]
 
+export { TitleCNLM, DataCNLM };

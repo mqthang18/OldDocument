@@ -1,6 +1,6 @@
-const title = 'Công nghệ thực phẩm'
+const TitleCNTP = 'Công nghệ thực phẩm'
 
-const data = [
+const DataCNTP = [
     // Cô N. Vương Câu 1
     {
         'subject': 'Công nghệ thực phẩm',
@@ -468,4 +468,6 @@ const data = [
         `
     }
 ]
+
+export { TitleCNTP , DataCNTP };
 

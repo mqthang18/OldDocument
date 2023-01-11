@@ -1,6 +1,6 @@
-const title = 'Vi sinh vật y học'
+const TitleVSVYH = 'Vi sinh vật y học'
 
-const data = [
+const DataVSVYH = [
     // C.Thu Ba Câu 1
     {
         'subject': 'Vi sinh vật y học',
@@ -334,4 +334,6 @@ const data = [
         `
     }
 ]
+
+export {TitleVSVYH, DataVSVYH}
 

@@ -1,5 +1,7 @@
+
+
 const Post = `
-    <div class="post">
+    <div id="change" class="post">
         <h2>{{ title }}</h2>
         <ul style="list-style-type:none; background: #e1e1ff; padding: 5px">
             <li v-for="abc in listBlogs"><a v-on:click="scrollToBottom($event,'block'+abc.number)" v-bind:href="'#'+abc.number">{{ abc.question }} - Giảng viên: {{ abc.author }} </a></li>
@@ -13,3 +15,5 @@ const Post = `
         </div>
     </div> 
 `
+
+export default Post; 

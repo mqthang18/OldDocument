@@ -1,57 +1,55 @@
+import MenuBar from "./source/views/blocks/MenuBar.js";
+import Post from "./source/views/blocks/Post.js";
 
-try {
-    var menubarT = MenuBar;
-    var PostT = Post;
-    var dataT = data;
-    var titleT = title;
-} catch (error) {
-    window.location.href=url;
-}
-
-
+import {TitleCHSH, DataCHSH} from './source/views/pages/CHSH/data.js';
+import {TitleCNLM, DataCNLM} from './source/views/pages/CNLM/data.js';
+import {TitleCNTP, DataCNTP} from './source/views/pages/CNTP/data.js';
+import {TitleDTVSV, DataDTVSV} from './source/views/pages/DTVSV/data.js';
+import {TitleVSTS, DataVSTS} from './source/views/pages/VSTS/data.js';
+import {TitleVSVTY, DataVSVTY} from './source/views/pages/VSVTY/data.js';
+import { TitleVSVYH, DataVSVYH } from "./source/views/pages/VSVYH/data.js";
 var menubarBlock = new Vue({
     el: '#menubar',
     methods: {
         MenuBarF(topic) {
             const ul = document.getElementById('navbar');
             const listItems = ul.getElementsByTagName('li');
-                
-            // Loop through the NodeList object.
+             // Loop through the NodeList object.
             for (let i = 0; i <= listItems.length - 1; i++) {
-                var url_imm = new URL('https://'.concat(listItems[i].getElementsByTagName('a')[0].getAttribute('href')));
-                var topic_imm = url_imm.searchParams.get("topic");
-                if (topic_imm == topic) {
+                if (topic==listItems[i].getAttribute('id')) {
+                    console.log(topic)
+                    PostBlock.title = eval('Title'+topic);
+                    PostBlock.listBlogs = eval('Data'+topic)
                     listItems[i].setAttribute("class", 'active');
                 } else {
                     listItems[i].removeAttribute("class");
                 }
-            }
+            }           
         }
     },
-    template: menubarT
+    template: MenuBar
 })
-menubarBlock.MenuBarF(topic);
+
 
 var PostBlock = new Vue({
     el: '#post',
-    template: PostT,
+    template: Post,
     data: {
-        title:titleT,
-        listBlogs: dataT
+        title:TitleCHSH,
+        listBlogs: DataCHSH
     },
     methods: {
         scrollToBottom(e,id) {
             console.log(id)
             e.preventDefault();
             var element = document.getElementById(id);
-
-            // var top = element.offsetTop;
             var y = element.offsetTop; 
-            // console.log(y)
-            // window.scrollTo(0, top);
-            // element.scrollIntoView({behavior: "smooth", block: "end"});
             window.scrollTo({top: y, behavior: 'smooth'});
+        },
+        ChangeIDTemplate() {
+            $('#change').attr('id', 'post');
         }
     }
 })
 
+PostBlock.ChangeIDTemplate();

@@ -1,6 +1,6 @@
-const title = 'Vi sinh vật thú y'
+const TitleVSVTY = 'Vi sinh vật thú y'
 
-const data = [
+const DataVSVTY = [
     // Cô Hạnh Chi Câu 1
     {
         'subject': 'Vi sinh vật thú y',
@@ -58,4 +58,6 @@ const data = [
         'answer': `<a href="https://docs.google.com/spreadsheets/d/1tAnTkUZ2WacbfCw8OGZlY0HeesNSen5ajLEZKVAutqg/edit?usp=sharing" target="_blank">Link test</a>`,
     }
 ]
+
+export {TitleVSVTY, DataVSVTY}
 
